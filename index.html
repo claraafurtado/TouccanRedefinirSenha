@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redefinir senha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Logo Touccan.png" alt="Logo Touccan" class="logo">
+        
+        <!-- Mensagem de Feedback -->
+        <div id="feedback" class="feedback"></div>
+    
+        <div class="card">
+            <h2>Crie uma nova senha</h2>
+            
+            <div class="input-container">
+                <label for="senha">Senha</label>
+                <div class="input-wrapper">
+                    <span class="lock-icon">&#128274;</span>
+                    <input type="password" id="senha" placeholder="" maxlength="8">
+                    <span class="eye-icon" id="toggleSenha">&#128065;</span>
+                </div>
+            </div>
+    
+            <div class="input-container">
+                <label for="confirmarSenha">Confirme sua senha</label>
+                <div class="input-wrapper">
+                    <span class="lock-icon">&#128274;</span>
+                    <input type="password" id="confirmarSenha" placeholder="" maxlength="8">
+                    <span class="eye-icon" id="toggleConfirmarSenha">&#128065;</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Botão "Atualizar" fora do card -->
+        <button id="atualizar" class="btn-laranja">Atualizar</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
